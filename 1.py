@@ -18,3 +18,7 @@ wait = WebDriverWait(driver, 10)
 
 driver.get("https://typekadeh.com")
 time.sleep(2)
+
+btn1 = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "header button.tk-btn")))
+driver.execute_script("arguments[0].click();", btn1)
+time.sleep(1.5)
