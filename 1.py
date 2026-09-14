@@ -12,3 +12,6 @@ def slow_type(element, text, delay=0.1):
 
 options = webdriver.EdgeOptions()
 options.add_experimental_option("detach", True)
+
+driver = webdriver.Edge(options=options)
+wait = WebDriverWait(driver, 10)
