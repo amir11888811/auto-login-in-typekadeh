@@ -31,3 +31,6 @@ inputs = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".card
 
 slow_type(inputs[0], "your email", delay=0.1)
 time.sleep(0.5)
+
+slow_type(inputs[1], "your password", delay=0.1)
+time.sleep(1.5)
