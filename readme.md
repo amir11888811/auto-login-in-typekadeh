@@ -1,7 +1,6 @@
 ## auto login in typekadeh
 First of all,we need to  register in typekadeh site.\
-and this code when the code is run,The code automatically launches the Edge app and logs you into the site and edit account name and And automatically goes to the educational status section.
-### instruction
+and this code when the code is run,The code automatically launches the Edge app and logs you into the site 
 - first you write `cmd` in the Terminal
 - for install venv you must write `python -m venv .venv` in Terminal.
 - for active venv you must write `.venv\scripts\activate` in Terminal.
