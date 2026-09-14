@@ -22,3 +22,7 @@ time.sleep(2)
 btn1 = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "header button.tk-btn")))
 driver.execute_script("arguments[0].click();", btn1)
 time.sleep(1.5)
+
+btn2 = wait.until(EC.element_to_be_clickable((By.CLASS_NAME, "iranYekan-14--bold")))
+driver.execute_script("arguments[0].click();", btn2)
+time.sleep(2)
