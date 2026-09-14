@@ -39,3 +39,5 @@ login_btn = wait.until(
     EC.presence_of_element_located((By.XPATH, "//div[contains(@class, 'card-dialog')]//button[contains(@class, 'tk-btn--primary')]"))
 )
 driver.execute_script("arguments[0].click();", login_btn)
+
+time.sleep(10)
