@@ -15,3 +15,6 @@ options.add_experimental_option("detach", True)
 
 driver = webdriver.Edge(options=options)
 wait = WebDriverWait(driver, 10)
+
+driver.get("https://typekadeh.com")
+time.sleep(2)
