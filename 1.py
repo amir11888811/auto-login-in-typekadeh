@@ -28,3 +28,6 @@ driver.execute_script("arguments[0].click();", btn2)
 time.sleep(2)
 
 inputs = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".card-dialog input, .card-dialog .tk-input__dense")))
+
+slow_type(inputs[0], "your email", delay=0.1)
+time.sleep(0.5)
